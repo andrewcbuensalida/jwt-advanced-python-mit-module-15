@@ -27,3 +27,9 @@ pip install -r requirements.txt
 
 ## To save dependencies into requirements.txt
 pip freeze > requirements.txt
+
+
+
+## To run a fask app
+flask --app app --debug run
+--debug is for live reload
